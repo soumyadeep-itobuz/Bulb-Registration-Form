@@ -8,6 +8,7 @@ const bulbOff = document.querySelector(".bulb-off");
 const bulbInfo = document.querySelector(".bulb-info");
 const oncountInfo = document.querySelector(".onCount-info");
 const offcountInfo = document.querySelector(".offCount-info");
+
 let onCount = localStorage.getItem("onCount") || 0;
 let offCount = localStorage.getItem("offCount") || 0;
 
