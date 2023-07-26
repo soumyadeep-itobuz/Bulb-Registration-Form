@@ -62,4 +62,10 @@ offcountInfo.innerHTML = `<span>No.of Off-Counts are: ${Number(localStorage.getI
   "onCount"
 ))}</span>`;
 
+function logOut(){
+  localStorage.setItem("offCount", 0);
+  localStorage.setItem("onCount", 0);
+  window.location.href = 'index.html';
+}
+
 showBulb();
